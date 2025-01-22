@@ -1,0 +1,45 @@
+body {
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background-color: black;
+  color: white !important;
+}
+
+
+p{
+  color: darkgrey !important;
+}
+
+.active{
+  color: red !important;
+}
+nav{
+box-shadow: 1px 1px 6px 0px rgb(188, 191, 188);
+}
+
+
+.vote {
+  color: #fff;
+  background-color: #24baef;
+  border-radius: 0px 0px 5px 5px;
+  padding: 8px;
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.ggg{
+border: solid 1px rgb(209, 205, 205) !important;
+}
+

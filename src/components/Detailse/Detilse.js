@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import Hedar from "./Hedar";
-import "./movie.css";
+ 
+import "./Detailse.css";
 export default function Details() {
   const { ID } = useParams();
   const [currentMovieDetail, setMovie] = useState();
@@ -21,7 +21,7 @@ export default function Details() {
 
   return (
     <>
-      <Hedar />
+      
       <div className="movie">
         <div className="movie__intro">
           <img

@@ -4,27 +4,19 @@ import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/home";
-import Moveis from "./pages/Moveis";
-import Contact from "./pages/Contact";
-import Detilse from "./componant/Detilse";
-
+ 
+import Detilse from "./components/Detailse/Detilse";
+import Notfound from "./pages/Not_found";
+ 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-    errorElement: <h1>SORROY.........</h1>,
+    errorElement: <Notfound/>,
   },
-  {
-    path: "/Moveis",
-    element: <Moveis />,
-  
-  },
+ 
 
-  {
-    path: "/Contact",
-    element: <Contact />,
-  },
   {
     path: "/Detilse/:ID",
     element: <Detilse />,

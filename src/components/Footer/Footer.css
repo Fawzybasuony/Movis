@@ -1,0 +1,28 @@
+.footer-section {
+    background-color: #161515 !important;
+    padding: 30px 0;
+    margin-top: 20px  ;
+    color: #fff;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .social-links a {
+    font-size: 20px;
+    color: #fff;
+    transition: 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #f39c12;  
+  }
+  
+  .copyright-text {
+    color: #aaa;
+    font-size: 14px;
+  }
+  

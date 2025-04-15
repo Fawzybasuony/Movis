@@ -5,26 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-*{
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
   background-color: black;
-  color: white !important;
+  color: #fff !important;
 }
-
+ 
 
 p{
   color: darkgrey !important;
-}
+}  
 
 .active{
   color: red !important;
-}
+}  
 nav{
-box-shadow: 1px 1px 6px 0px rgb(188, 191, 188);
+box-shadow: 1px 1px 6px 0px rgb(188, 191, 188);  
 }
 
 
@@ -37,9 +31,23 @@ box-shadow: 1px 1px 6px 0px rgb(188, 191, 188);
   position: absolute;
   top: 0;
   right: 20px;
-}
+}  
+ 
 
-.ggg{
-border: solid 1px rgb(209, 205, 205) !important;
-}
 
+.mySwiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+
+}
+ 
